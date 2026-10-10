@@ -1,0 +1,12 @@
+[
+  {"id": 1, "question": "How should an application prevent attacker-controlled values from changing the meaning of a database query?", "expected_doc": "SQL_Injection_Prevention_Cheat_Sheet", "expected_heading": "SQL Injection Prevention"},
+  {"id": 2, "question": "A web form accepts hostile input and the browser executes attacker-supplied markup. What defenses should be used?", "expected_doc": "Cross_Site_Scripting_Prevention_Cheat_Sheet", "expected_heading": "Cross Site Scripting Prevention"},
+  {"id": 3, "question": "A logged-in user's browser is tricked into submitting a state-changing request. How can the application defend against this?", "expected_doc": "Cross_Site_Request_Forgery_Prevention_Cheat_Sheet", "expected_heading": "Cross-Site Request Forgery Prevention"},
+  {"id": 4, "question": "What is a safe way to execute operating-system commands when parameters may originate from an attacker?", "expected_doc": "OS_Command_Injection_Defense_Cheat_Sheet", "expected_heading": "OS Command Injection Defense"},
+  {"id": 5, "question": "How should passwords be stored so that a database leak does not reveal the original passwords directly?", "expected_doc": "Password_Storage_Cheat_Sheet", "expected_heading": "Password Storage"},
+  {"id": 6, "question": "What controls reduce the risk that an uploaded file becomes an attack vector?", "expected_doc": "File_Upload_Cheat_Sheet", "expected_heading": "File Upload"},
+  {"id": 7, "question": "How can an application validate data at trust boundaries without relying only on client-side checks?", "expected_doc": "Input_Validation_Cheat_Sheet", "expected_heading": "Input Validation"},
+  {"id": 8, "question": "What protections are recommended for cookies that hold session identifiers?", "expected_doc": "Session_Management_Cheat_Sheet", "expected_heading": "Session Management"},
+  {"id": 9, "question": "How can an application stop an attacker from making the server request an internal or unintended URL?", "expected_doc": "Server_Side_Request_Forgery_Prevention_Cheat_Sheet", "expected_heading": "Server Side Request Forgery Prevention"},
+  {"id": 10, "question": "What is the recommended defense when an application builds a query dynamically from user-controlled input?", "expected_doc": "Query_Parameterization_Cheat_Sheet", "expected_heading": "Query Parameterization"}
+]

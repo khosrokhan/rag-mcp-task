@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+artifacts/*.npy
+artifacts/*.npz
+artifacts/index_meta.json
+artifacts/documents.json
+artifacts/bm25.pkl
+artifacts/*/
+data/cheatsheets/
+.pytest_cache/
